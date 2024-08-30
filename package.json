@@ -37,8 +37,15 @@
   "homepage": "https://github.com/revdotcom/revai-node-sdk#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "form-data": "^2.3.3",
+    "form-data": "^2.3.3"
+  },
+  "peerDependencies": {
     "websocket": "^1.0.34"
+  },
+  "peerDependenciesMeta": {
+    "websocket": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@types/form-data": "^2.2.1",
